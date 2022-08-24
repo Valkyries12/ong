@@ -11,8 +11,14 @@ const getAuthorizationToken = () => {
 
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
+  withCredentials: true,
+  // crossorigin:true,
+  crossdomain: true,
   headers: {
-    // Group: '142'
+    Group: '142',
+    "Access-Control-Allow-Origin": "*",
+    'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+    
   }
 });
 

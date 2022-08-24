@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Actividades = () => {
+const Home = () => {
     return (
         <div>
-actividades
+            adassa12
         </div>
     );
 }
 
-export default Actividades;
+export default Home;

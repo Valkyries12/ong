@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Actividades = () => {
+const Campanias = () => {
     return (
         <div>
-actividades
+            campañas
         </div>
     );
 }
 
-export default Actividades;
+export default Campanias;
